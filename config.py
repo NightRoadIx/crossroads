@@ -26,3 +26,6 @@ VEHICLE_SPEED = 2
 # Dimensiones de los vehículos
 VEHICLE_WIDTH = 10
 VEHICLE_HEIGHT = 20
+
+# Probabilidad de acelerar al ver luz amarilla
+AMBAR_PASA = 0.6
