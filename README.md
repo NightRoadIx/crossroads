@@ -1,6 +1,6 @@
 # Simulador de Cruce Vehicular con Semáforos y Lógica de Decisión en Ámbar
 
-Este proyecto implementa una simulación visual en 2D de un cruce vial con semáforos en dos direcciones: norte-sur (NS) y este-oeste (EW). Los vehículos son generados de manera aleatoria y responden a las señales de tráfico, respetando el semáforo y la distancia entre ellos. El sistema incluye lógica probabilística para simular decisiones en luz ámbar (acelerar o detenerse).
+Este proyecto implementa una simulación visual en 2D de un cruce vial con semáforos en dos direcciones: norte-sur (NS) y este-oeste (EW). La aparición o llegada de los vehículos esa de manera aleatoria y estos responden a las señales de tráfico, respetando el semáforo y la distancia entre ellos la cual también responde a un proceso aleatorio. El sistema incluye lógica probabilística para simular las decisiones que toman los vehículos que llegan al creuce en luz ámbar, ya sea que se detengan o que aceleren para cruzar.
 
 ## 📋 Características
 
@@ -17,12 +17,11 @@ Este proyecto implementa una simulación visual en 2D de un cruce vial con semá
 
 ## 🗂 Estructura del Proyecto
 
-├── main.py # Ejecuta la simulación
-├── config.py # Constantes y parámetros globales
-├── vehicle.py # Clase de vehículo y su lógica de movimiento
-├── traffic_light.py # Clase de semáforo
-├── fuzzy_controller.py # (opcional) Control difuso de tiempos
-├── README.md # Documentación del proyecto
+- main.py    # Ejecuta la simulación
+- config.py  # Constantes y parámetros globales
+- vehicle.py # Clase de vehículo y su lógica de movimiento
+- traffic_light.py  # Clase de semáforo
+- fuzzy_controller.py  # Control difuso de tiempos
 
 
 ## ⚙️ Requisitos
