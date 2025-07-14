@@ -21,7 +21,7 @@ Este proyecto implementa una simulación visual en 2D de un cruce vial con semá
 - config.py  # Constantes y parámetros globales
 - vehicle.py # Clase de vehículo y su lógica de movimiento
 - traffic_light.py  # Clase de semáforo
-- fuzzy_controller.py  # Control difuso de tiempos
+- fuzzy_controller.py  # Control difuso de tiempos de luces del semáforo
 
 
 ## ⚙️ Requisitos
