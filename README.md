@@ -5,9 +5,10 @@ Este proyecto implementa una simulación visual en 2D de un cruce vial con semá
 ## 📋 Características
 
 - Semáforos totalmente funcionales con transiciones verde–ámbar–rojo.
-- Comportamiento independiente por dirección (NS y EW).
-- Generación estocástica de vehículos.
-- Decisión probabilística ante luz ámbar (`AMBAR_PASA`).
+- Comportamiento independiente por dirección (Norte-Sur y Este-Oeste).
+- Aparición aleatoria de vehículos de vehículos.
+- Decisión aleatoria si el vehículo incrementa su velocidad ante la luz ámbar.
+- Los vehículos se detienen a una distancia aleatoria del siguiente cuando hay luz roja.
 - Registro estadístico:
   - Vehículos que pasaron
   - Vehículos que cruzaron
@@ -17,15 +18,10 @@ Este proyecto implementa una simulación visual en 2D de un cruce vial con semá
 ## 🗂 Estructura del Proyecto
 
 ├── main.py # Ejecuta la simulación
-
 ├── config.py # Constantes y parámetros globales
-
 ├── vehicle.py # Clase de vehículo y su lógica de movimiento
-
 ├── traffic_light.py # Clase de semáforo
-
 ├── fuzzy_controller.py # (opcional) Control difuso de tiempos
-
 ├── README.md # Documentación del proyecto
 
 
